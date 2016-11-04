@@ -76,9 +76,9 @@ struct AmaAPI {
 /*
  Examples
  
- AmaAPI(.productSearch, .get).url()
- AmaAPI(.store, .get, ID: 2).url()
- AmaAPI(.home, .get).url()
- AmaAPI(.category, .delete, ID: 5).url()
+ AmaAPI(.productSearch, .get).asUrl()
+ AmaAPI(.store, .get, ID: 2).asUrl()
+ AmaAPI(.home, .get).asUrl()
+ AmaAPI(.category, .delete, ID: 5).asUrl()
  
 */

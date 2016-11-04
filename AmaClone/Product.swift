@@ -18,11 +18,10 @@ class Product {
     var description_p: String!
     var storeId: Int!
     var createdAt: DateInRegion!
-    var imageURLs: [Any]?
-    var categories: [Any]?
+    var imageURLs: [String:Any]?
+    var categories: [String:Any]?
     
     init(withJSONObject obj: JSON) {
-        //super.init()
         
         id = obj["id"].int
         title = obj["title"].string
@@ -30,8 +29,8 @@ class Product {
         description_p = obj["description"].string
         storeId = obj["storeId"].int
         createdAt = try! obj["createdAt"].stringValue.date(format: .iso8601(options: .withInternetDateTimeExtended))
-        imageURLs = obj["imageURLs"].array
-        categories = obj["cateogories"].array
+        imageURLs = obj["imageURLs"].dictionary
+        categories = obj["cateogories"].dictionary
         
     }
     

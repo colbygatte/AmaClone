@@ -8,7 +8,6 @@ target 'AmaClone' do
   # Pods for AmaClone
   pod 'SwiftyJSON', '~> 3.1'
   pod 'SwiftDate', '~> 4.0'
-  pod 'URLNavigator', '~> 1.0'
 
   target 'AmaCloneTests' do
     inherit! :search_paths
