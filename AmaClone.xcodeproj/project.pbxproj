@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E9C56C781DCBEAE50076F8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C771DCBEAE50076F8D9 /* AppDelegate.swift */; };
-		E9C56C7A1DCBEAE50076F8D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C791DCBEAE50076F8D9 /* ViewController.swift */; };
 		E9C56C7D1DCBEAE50076F8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C56C7B1DCBEAE50076F8D9 /* Main.storyboard */; };
 		E9C56C801DCBEAE50076F8D9 /* AmaClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C7E1DCBEAE50076F8D9 /* AmaClone.xcdatamodeld */; };
 		E9C56C821DCBEAE50076F8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C56C811DCBEAE50076F8D9 /* Assets.xcassets */; };
 		E9C56C851DCBEAE50076F8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C56C831DCBEAE50076F8D9 /* LaunchScreen.storyboard */; };
 		E9C56C901DCBEAE50076F8D9 /* AmaCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C8F1DCBEAE50076F8D9 /* AmaCloneTests.swift */; };
 		E9C56C9B1DCBEAE50076F8D9 /* AmaCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C9A1DCBEAE50076F8D9 /* AmaCloneUITests.swift */; };
+		E9C56CA91DCBEB1C0076F8D9 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56CA81DCBEB1C0076F8D9 /* ProductViewController.swift */; };
+		E9C56CAD1DCBEB850076F8D9 /* AmaClone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56CAC1DCBEB850076F8D9 /* AmaClone.swift */; };
+		E9C56CAF1DCBFA1A0076F8D9 /* AmaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56CAE1DCBFA1A0076F8D9 /* AmaAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 /* Begin PBXFileReference section */
 		E9C56C741DCBEAE50076F8D9 /* AmaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C56C771DCBEAE50076F8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9C56C791DCBEAE50076F8D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9C56C7C1DCBEAE50076F8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9C56C7F1DCBEAE50076F8D9 /* AmaClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmaClone.xcdatamodel; sourceTree = "<group>"; };
 		E9C56C811DCBEAE50076F8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		E9C56C961DCBEAE50076F8D9 /* AmaCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C56C9A1DCBEAE50076F8D9 /* AmaCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaCloneUITests.swift; sourceTree = "<group>"; };
 		E9C56C9C1DCBEAE50076F8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C56CA81DCBEB1C0076F8D9 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		E9C56CAC1DCBEB850076F8D9 /* AmaClone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmaClone.swift; sourceTree = "<group>"; };
+		E9C56CAE1DCBFA1A0076F8D9 /* AmaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmaAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,10 @@
 		E9C56C6B1DCBEAE50076F8D9 = {
 			isa = PBXGroup;
 			children = (
+				E9C56C7B1DCBEAE50076F8D9 /* Main.storyboard */,
+				E9C56CA81DCBEB1C0076F8D9 /* ProductViewController.swift */,
+				E9C56CAC1DCBEB850076F8D9 /* AmaClone.swift */,
+				E9C56CAE1DCBFA1A0076F8D9 /* AmaAPI.swift */,
 				E9C56C761DCBEAE50076F8D9 /* AmaClone */,
 				E9C56C8E1DCBEAE50076F8D9 /* AmaCloneTests */,
 				E9C56C991DCBEAE50076F8D9 /* AmaCloneUITests */,
@@ -100,11 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				E9C56C771DCBEAE50076F8D9 /* AppDelegate.swift */,
-				E9C56C791DCBEAE50076F8D9 /* ViewController.swift */,
-				E9C56C7B1DCBEAE50076F8D9 /* Main.storyboard */,
 				E9C56C811DCBEAE50076F8D9 /* Assets.xcassets */,
-				E9C56C831DCBEAE50076F8D9 /* LaunchScreen.storyboard */,
 				E9C56C861DCBEAE50076F8D9 /* Info.plist */,
+				E9C56C831DCBEAE50076F8D9 /* LaunchScreen.storyboard */,
 				E9C56C7E1DCBEAE50076F8D9 /* AmaClone.xcdatamodeld */,
 			);
 			path = AmaClone;
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C56C7A1DCBEAE50076F8D9 /* ViewController.swift in Sources */,
+				E9C56CA91DCBEB1C0076F8D9 /* ProductViewController.swift in Sources */,
+				E9C56CAD1DCBEB850076F8D9 /* AmaClone.swift in Sources */,
+				E9C56CAF1DCBFA1A0076F8D9 /* AmaAPI.swift in Sources */,
 				E9C56C781DCBEAE50076F8D9 /* AppDelegate.swift in Sources */,
 				E9C56C801DCBEAE50076F8D9 /* AmaClone.xcdatamodeld in Sources */,
 			);
@@ -306,6 +314,7 @@
 				E9C56C7C1DCBEAE50076F8D9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = AmaClone;
 			sourceTree = "<group>";
 		};
 		E9C56C831DCBEAE50076F8D9 /* LaunchScreen.storyboard */ = {
