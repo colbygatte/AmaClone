@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-AmaClone.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AmaCloneTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AmaCloneUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftDate.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>56A7B6A7A5BDB5494C6C7382E4A3EBF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AAB754079AC3AEE9DE2CE08ED6D2459</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D5502CA5C17FCDE83F110341D7E6302</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C744D1F5141A6F7A9DB21A822D865CD6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7A28B0E3B822D3F1DB8727EDAC9181D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

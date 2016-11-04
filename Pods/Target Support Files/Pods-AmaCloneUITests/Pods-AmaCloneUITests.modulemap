@@ -1,0 +1,6 @@
+framework module Pods_AmaCloneUITests {
+  umbrella header "Pods-AmaCloneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -5,6 +5,7 @@
 //  Created by Colby Gatte on 11/3/16.
 //  Copyright © 2016 colbyg. All rights reserved.
 //
+import Foundation
 
 struct AmaAPI {
     static let apiURL = "https://amaclone-example.now.sh/api/"
@@ -32,7 +33,7 @@ struct AmaAPI {
         self.on = on
     }
     
-    func url() -> String? {
+    func asString() -> String? {
         
         switch self.on {
         case .category, .product, .store:
@@ -58,6 +59,16 @@ struct AmaAPI {
             
         }
         
+    }
+    
+    func asUrl() -> URL? {
+        let string = asString()
+        if string == nil {
+            return nil
+        } else {
+            let url = URL(string: string!)
+            return url
+        }
     }
     
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38CC7D3180F258368D15B0D9 /* Pods_AmaCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689267DFDD034EA803B1F926 /* Pods_AmaCloneTests.framework */; };
+		AE1497D812CEC3C5B3465546 /* Pods_AmaCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F382ABF229BE95490F1545 /* Pods_AmaCloneUITests.framework */; };
+		D3D4FDE1CCDBE4B86A3E272E /* Pods_AmaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8BB4F1831C9377D97E31B1 /* Pods_AmaClone.framework */; };
+		E96E3D871DCC2D39007CD147 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E3D861DCC2D39007CD147 /* Product.swift */; };
 		E9C56C781DCBEAE50076F8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C771DCBEAE50076F8D9 /* AppDelegate.swift */; };
 		E9C56C7D1DCBEAE50076F8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C56C7B1DCBEAE50076F8D9 /* Main.storyboard */; };
 		E9C56C801DCBEAE50076F8D9 /* AmaClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C7E1DCBEAE50076F8D9 /* AmaClone.xcdatamodeld */; };
@@ -15,7 +19,6 @@
 		E9C56C901DCBEAE50076F8D9 /* AmaCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C8F1DCBEAE50076F8D9 /* AmaCloneTests.swift */; };
 		E9C56C9B1DCBEAE50076F8D9 /* AmaCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C9A1DCBEAE50076F8D9 /* AmaCloneUITests.swift */; };
 		E9C56CA91DCBEB1C0076F8D9 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56CA81DCBEB1C0076F8D9 /* ProductViewController.swift */; };
-		E9C56CAD1DCBEB850076F8D9 /* AmaClone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56CAC1DCBEB850076F8D9 /* AmaClone.swift */; };
 		E9C56CAF1DCBFA1A0076F8D9 /* AmaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56CAE1DCBFA1A0076F8D9 /* AmaAPI.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03F382ABF229BE95490F1545 /* Pods_AmaCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmaCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8BB4F1831C9377D97E31B1 /* Pods_AmaClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmaClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4800D03F524F3EDDC1D2B498 /* Pods-AmaCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaCloneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmaCloneTests/Pods-AmaCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		599271862F48C9381F24F3A6 /* Pods-AmaCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaCloneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmaCloneTests/Pods-AmaCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		689267DFDD034EA803B1F926 /* Pods_AmaCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmaCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90366946EE0665DC1B27380F /* Pods-AmaCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaCloneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmaCloneUITests/Pods-AmaCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A326DE31EC82D7C7AD0811EE /* Pods-AmaClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmaClone/Pods-AmaClone.debug.xcconfig"; sourceTree = "<group>"; };
+		C3C7606F174249D5676FBF43 /* Pods-AmaCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaCloneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmaCloneUITests/Pods-AmaCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEDA70F77067A4B6CCEECFAC /* Pods-AmaClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmaClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmaClone/Pods-AmaClone.release.xcconfig"; sourceTree = "<group>"; };
+		E96E3D861DCC2D39007CD147 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		E9C56C741DCBEAE50076F8D9 /* AmaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C56C771DCBEAE50076F8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9C56C7C1DCBEAE50076F8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,9 +63,9 @@
 		E9C56C961DCBEAE50076F8D9 /* AmaCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmaCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C56C9A1DCBEAE50076F8D9 /* AmaCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmaCloneUITests.swift; sourceTree = "<group>"; };
 		E9C56C9C1DCBEAE50076F8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9C56CA81DCBEB1C0076F8D9 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
-		E9C56CAC1DCBEB850076F8D9 /* AmaClone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmaClone.swift; sourceTree = "<group>"; };
-		E9C56CAE1DCBFA1A0076F8D9 /* AmaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmaAPI.swift; sourceTree = "<group>"; };
+		E9C56CA81DCBEB1C0076F8D9 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductViewController.swift; path = ../ProductViewController.swift; sourceTree = "<group>"; };
+		E9C56CAE1DCBFA1A0076F8D9 /* AmaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmaAPI.swift; path = ../AmaAPI.swift; sourceTree = "<group>"; };
+		E9D2BF071DCC34A50054D96E /* SwiftDate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = SwiftDate.playground; path = AmaClone/SwiftDate.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D4FDE1CCDBE4B86A3E272E /* Pods_AmaClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CC7D3180F258368D15B0D9 /* Pods_AmaCloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,23 +89,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1497D812CEC3C5B3465546 /* Pods_AmaCloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97CB38C473CE6613FDB74289 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A326DE31EC82D7C7AD0811EE /* Pods-AmaClone.debug.xcconfig */,
+				DEDA70F77067A4B6CCEECFAC /* Pods-AmaClone.release.xcconfig */,
+				4800D03F524F3EDDC1D2B498 /* Pods-AmaCloneTests.debug.xcconfig */,
+				599271862F48C9381F24F3A6 /* Pods-AmaCloneTests.release.xcconfig */,
+				90366946EE0665DC1B27380F /* Pods-AmaCloneUITests.debug.xcconfig */,
+				C3C7606F174249D5676FBF43 /* Pods-AmaCloneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B25DFEAA38A41F723AD1F3B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F8BB4F1831C9377D97E31B1 /* Pods_AmaClone.framework */,
+				689267DFDD034EA803B1F926 /* Pods_AmaCloneTests.framework */,
+				03F382ABF229BE95490F1545 /* Pods_AmaCloneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E96E3D851DCC2D22007CD147 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E96E3D861DCC2D39007CD147 /* Product.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		E9C56C6B1DCBEAE50076F8D9 = {
 			isa = PBXGroup;
 			children = (
+				E9D2BF071DCC34A50054D96E /* SwiftDate.playground */,
 				E9C56C7B1DCBEAE50076F8D9 /* Main.storyboard */,
-				E9C56CA81DCBEB1C0076F8D9 /* ProductViewController.swift */,
-				E9C56CAC1DCBEB850076F8D9 /* AmaClone.swift */,
-				E9C56CAE1DCBFA1A0076F8D9 /* AmaAPI.swift */,
 				E9C56C761DCBEAE50076F8D9 /* AmaClone */,
 				E9C56C8E1DCBEAE50076F8D9 /* AmaCloneTests */,
 				E9C56C991DCBEAE50076F8D9 /* AmaCloneUITests */,
 				E9C56C751DCBEAE50076F8D9 /* Products */,
+				97CB38C473CE6613FDB74289 /* Pods */,
+				B25DFEAA38A41F723AD1F3B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +154,9 @@
 		E9C56C761DCBEAE50076F8D9 /* AmaClone */ = {
 			isa = PBXGroup;
 			children = (
+				E96E3D851DCC2D22007CD147 /* Objects */,
+				E9C56CA81DCBEB1C0076F8D9 /* ProductViewController.swift */,
+				E9C56CAE1DCBFA1A0076F8D9 /* AmaAPI.swift */,
 				E9C56C771DCBEAE50076F8D9 /* AppDelegate.swift */,
 				E9C56C811DCBEAE50076F8D9 /* Assets.xcassets */,
 				E9C56C861DCBEAE50076F8D9 /* Info.plist */,
@@ -141,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9C56C9F1DCBEAE50076F8D9 /* Build configuration list for PBXNativeTarget "AmaClone" */;
 			buildPhases = (
+				8AE8F127B412CA30A90FCC06 /* [CP] Check Pods Manifest.lock */,
 				E9C56C701DCBEAE50076F8D9 /* Sources */,
 				E9C56C711DCBEAE50076F8D9 /* Frameworks */,
 				E9C56C721DCBEAE50076F8D9 /* Resources */,
+				926AFB0ABE22DCB1D17B81CE /* [CP] Embed Pods Frameworks */,
+				6481DAF1965F9FD0EB774219 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9C56CA21DCBEAE50076F8D9 /* Build configuration list for PBXNativeTarget "AmaCloneTests" */;
 			buildPhases = (
+				E459BE783F6CE5FD76FF7CDD /* [CP] Check Pods Manifest.lock */,
 				E9C56C871DCBEAE50076F8D9 /* Sources */,
 				E9C56C881DCBEAE50076F8D9 /* Frameworks */,
 				E9C56C891DCBEAE50076F8D9 /* Resources */,
+				AE3F61A3A92710A7CC554480 /* [CP] Embed Pods Frameworks */,
+				A41CAC5DF2A3891898C07CEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9C56CA51DCBEAE50076F8D9 /* Build configuration list for PBXNativeTarget "AmaCloneUITests" */;
 			buildPhases = (
+				E45FD6B087D606636DABE437 /* [CP] Check Pods Manifest.lock */,
 				E9C56C921DCBEAE50076F8D9 /* Sources */,
 				E9C56C931DCBEAE50076F8D9 /* Frameworks */,
 				E9C56C941DCBEAE50076F8D9 /* Resources */,
+				FE81C3ED3C53C52BBFB9EB83 /* [CP] Embed Pods Frameworks */,
+				367A8CB1FB121F05198C58AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,16 +322,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		367A8CB1FB121F05198C58AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaCloneUITests/Pods-AmaCloneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6481DAF1965F9FD0EB774219 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaClone/Pods-AmaClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE8F127B412CA30A90FCC06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		926AFB0ABE22DCB1D17B81CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaClone/Pods-AmaClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A41CAC5DF2A3891898C07CEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaCloneTests/Pods-AmaCloneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE3F61A3A92710A7CC554480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaCloneTests/Pods-AmaCloneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E459BE783F6CE5FD76FF7CDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E45FD6B087D606636DABE437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE81C3ED3C53C52BBFB9EB83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmaCloneUITests/Pods-AmaCloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9C56C701DCBEAE50076F8D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E9C56CA91DCBEB1C0076F8D9 /* ProductViewController.swift in Sources */,
-				E9C56CAD1DCBEB850076F8D9 /* AmaClone.swift in Sources */,
 				E9C56CAF1DCBFA1A0076F8D9 /* AmaAPI.swift in Sources */,
 				E9C56C781DCBEAE50076F8D9 /* AppDelegate.swift in Sources */,
 				E9C56C801DCBEAE50076F8D9 /* AmaClone.xcdatamodeld in Sources */,
+				E96E3D871DCC2D39007CD147 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +620,7 @@
 		};
 		E9C56CA01DCBEAE50076F8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A326DE31EC82D7C7AD0811EE /* Pods-AmaClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AmaClone/Info.plist;
@@ -435,6 +633,7 @@
 		};
 		E9C56CA11DCBEAE50076F8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDA70F77067A4B6CCEECFAC /* Pods-AmaClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AmaClone/Info.plist;
@@ -447,6 +646,7 @@
 		};
 		E9C56CA31DCBEAE50076F8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4800D03F524F3EDDC1D2B498 /* Pods-AmaCloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,6 +661,7 @@
 		};
 		E9C56CA41DCBEAE50076F8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599271862F48C9381F24F3A6 /* Pods-AmaCloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +676,7 @@
 		};
 		E9C56CA61DCBEAE50076F8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90366946EE0665DC1B27380F /* Pods-AmaCloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = AmaCloneUITests/Info.plist;
@@ -488,6 +690,7 @@
 		};
 		E9C56CA71DCBEAE50076F8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C7606F174249D5676FBF43 /* Pods-AmaCloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = AmaCloneUITests/Info.plist;
@@ -518,6 +721,7 @@
 				E9C56CA11DCBEAE50076F8D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9C56CA21DCBEAE50076F8D9 /* Build configuration list for PBXNativeTarget "AmaCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +730,7 @@
 				E9C56CA41DCBEAE50076F8D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9C56CA51DCBEAE50076F8D9 /* Build configuration list for PBXNativeTarget "AmaCloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +739,7 @@
 				E9C56CA71DCBEAE50076F8D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

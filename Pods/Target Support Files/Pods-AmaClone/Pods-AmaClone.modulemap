@@ -1,0 +1,6 @@
+framework module Pods_AmaClone {
+  umbrella header "Pods-AmaClone-umbrella.h"
+
+  export *
+  module * { export * }
+}
