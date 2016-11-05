@@ -45,7 +45,8 @@
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <action selector="touch:" destination="-1" eventType="touchUpInside" id="A7K-7K-Pcg"/>
+                <action selector="touchDown" destination="-1" eventType="touchDown" id="YHj-fS-2vk"/>
+                <action selector="touchUpInside" destination="-1" eventType="touchUpInside" id="C18-iN-4fT"/>
             </connections>
             <point key="canvasLocation" x="150" y="549.5"/>
         </view>

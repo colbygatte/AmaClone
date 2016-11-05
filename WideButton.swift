@@ -17,43 +17,36 @@ class WideButton: UIButton {
     @IBOutlet var view: UIView!
     
     
-    @IBAction func touch(_ sender: Any) {
+    func setup() {
+        Bundle.main.loadNibNamed("WideButton", owner: self, options: [:])
         
-        let me = sender as! UIControl
+        // delete the default text
+        self.titleLabel?.text = ""
         
+        // let it be equal to it's parent
+        self.view.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
+        
+        self.addSubview(self.view)
+    }
+    
+    @IBAction func touchUpInside() {
         self.sendActions(for: .touchUpInside)
     }
 
+    @IBAction func touchDown() {
+        self.sendActions(for: .touchDown)
+    }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        
-        
-        Bundle.main.loadNibNamed("WideButton", owner: self, options: [:])
-        
-        // we want it to fit perfectly into it's parent view
-        // while making sure you don't change it's x & y position
-        self.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: view.frame.size.width, height: view.frame.size.height)
-        
-        
-        self.addSubview(self.view)
-        
-        
+        setup()
     }
+    
     
     required override init(frame: CGRect) {
         super.init(frame: frame)
-        
-        Bundle.main.loadNibNamed("WideButton", owner: self, options: [:])
-        
-        // Make sure it's parent view is the same size
-        // while making sure you don't change it's x & y position
-        self.frame = CGRect(x: frame.origin.x, y: frame.origin.y, width: view.frame.size.width, height: view.frame.size.height)
-        
-        self.addSubview(self.view)
-        
+        setup()
     }
-    
 
     
 }

@@ -11,9 +11,8 @@ import UIKit
 
 class ProductViewController: UIViewController {
 
+    //@IBOutlet var productView: UIView!
     @IBOutlet var productImageView: UIImageView!
-    
-    // XIB
     @IBOutlet var addToShoppingCartButton: WideButton!
     
     var productImage: UIImage!
@@ -21,39 +20,38 @@ class ProductViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         productImage = UIImage(named: "RangeRover.jpg")
         productImageView.image = productImage
+        productImageView.contentMode = UIViewContentMode.scaleAspectFit
+        
         
         
         // XIB
-        let shoppingCartImage = UIImage(named: "shopping_cart.png")
-        
-        addToShoppingCartButton.buttonImageView.image = shoppingCartImage
         addToShoppingCartButton.buttonLabel.text = "Add to shopping cart"
+        let shoppingCartImage = UIImage(named: "shopping_cart.png")
+        addToShoppingCartButton.buttonImageView.image = shoppingCartImage
         addToShoppingCartButton.view.backgroundColor = UIColor.lightGray
+        
         
         
     }
 
+
     @IBAction func touched() {
-        print ("pressed bitch")
+        addToShoppingCartButton.view.backgroundColor = UIColor.lightGray
+        addToShoppingCartButton.buttonLabel.textColor = UIColor.black
+    }
+    
+    @IBAction func changeColor() {
+        addToShoppingCartButton.view.backgroundColor = UIColor.blue
+        addToShoppingCartButton.buttonLabel.textColor = UIColor.white
     }
     
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
