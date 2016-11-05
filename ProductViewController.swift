@@ -12,7 +12,9 @@ import UIKit
 class ProductViewController: UIViewController {
 
     @IBOutlet var productImageView: UIImageView!
-    @IBOutlet var addToShoppingCartButton: UIButton!
+    
+    // XIB
+    @IBOutlet var addToShoppingCartButton: WideButton!
     
     var productImage: UIImage!
     
@@ -23,17 +25,21 @@ class ProductViewController: UIViewController {
         productImageView.image = productImage
         
         
+        // XIB
         let shoppingCartImage = UIImage(named: "shopping_cart.png")
-        let shoppingCartImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 30, height: 30))
-        shoppingCartImageView.image = shoppingCartImage
-
         
+        addToShoppingCartButton.buttonImageView.image = shoppingCartImage
+        addToShoppingCartButton.buttonLabel.text = "Add to shopping cart"
+        addToShoppingCartButton.view.backgroundColor = UIColor.lightGray
         
-        addToShoppingCartButton.addSubview(shoppingCartImageView)
-
         
     }
 
+    @IBAction func touched() {
+        print ("pressed bitch")
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -13,6 +13,8 @@
 		E939534C1DCD154B007F37C5 /* RangeRover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E939534B1DCD154B007F37C5 /* RangeRover.jpg */; };
 		E939534E1DCD15A7007F37C5 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939534D1DCD15A7007F37C5 /* ProductViewController.swift */; };
 		E93953501DCD1E19007F37C5 /* shopping_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = E939534F1DCD1E19007F37C5 /* shopping_cart.png */; };
+		E968ADE11DCD4A6200B8B6F7 /* WideButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E968ADE01DCD4A6200B8B6F7 /* WideButton.xib */; };
+		E968ADE31DCD4B8B00B8B6F7 /* WideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968ADE21DCD4B8B00B8B6F7 /* WideButton.swift */; };
 		E96E3D871DCC2D39007CD147 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E3D861DCC2D39007CD147 /* Product.swift */; };
 		E9C56C781DCBEAE50076F8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C56C771DCBEAE50076F8D9 /* AppDelegate.swift */; };
 		E9C56C7D1DCBEAE50076F8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C56C7B1DCBEAE50076F8D9 /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 		E939534B1DCD154B007F37C5 /* RangeRover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RangeRover.jpg; sourceTree = "<group>"; };
 		E939534D1DCD15A7007F37C5 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		E939534F1DCD1E19007F37C5 /* shopping_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping_cart.png; sourceTree = "<group>"; };
+		E968ADE01DCD4A6200B8B6F7 /* WideButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WideButton.xib; sourceTree = "<group>"; };
+		E968ADE21DCD4B8B00B8B6F7 /* WideButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WideButton.swift; sourceTree = "<group>"; };
 		E96E3D861DCC2D39007CD147 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		E9C56C741DCBEAE50076F8D9 /* AmaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C56C771DCBEAE50076F8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -145,9 +149,11 @@
 		E9C56C6B1DCBEAE50076F8D9 = {
 			isa = PBXGroup;
 			children = (
-				E9D2BF071DCC34A50054D96E /* SwiftDate.playground */,
 				E9C56C7B1DCBEAE50076F8D9 /* Main.storyboard */,
 				E939534D1DCD15A7007F37C5 /* ProductViewController.swift */,
+				E968ADE21DCD4B8B00B8B6F7 /* WideButton.swift */,
+				E968ADE01DCD4A6200B8B6F7 /* WideButton.xib */,
+				E9D2BF071DCC34A50054D96E /* SwiftDate.playground */,
 				E9C56C761DCBEAE50076F8D9 /* AmaClone */,
 				E9C56C8E1DCBEAE50076F8D9 /* AmaCloneTests */,
 				E9C56C991DCBEAE50076F8D9 /* AmaCloneUITests */,
@@ -319,6 +325,7 @@
 			files = (
 				E93953501DCD1E19007F37C5 /* shopping_cart.png in Resources */,
 				E9C56C851DCBEAE50076F8D9 /* LaunchScreen.storyboard in Resources */,
+				E968ADE11DCD4A6200B8B6F7 /* WideButton.xib in Resources */,
 				E9C56C821DCBEAE50076F8D9 /* Assets.xcassets in Resources */,
 				E9C56C7D1DCBEAE50076F8D9 /* Main.storyboard in Resources */,
 				E939534C1DCD154B007F37C5 /* RangeRover.jpg in Resources */,
@@ -486,6 +493,7 @@
 			files = (
 				E939534E1DCD15A7007F37C5 /* ProductViewController.swift in Sources */,
 				E9C56CA91DCBEB1C0076F8D9 /* ProductListViewController.swift in Sources */,
+				E968ADE31DCD4B8B00B8B6F7 /* WideButton.swift in Sources */,
 				E9C56CAF1DCBFA1A0076F8D9 /* AmaAPI.swift in Sources */,
 				E9C56C781DCBEAE50076F8D9 /* AppDelegate.swift in Sources */,
 				E9C56C801DCBEAE50076F8D9 /* AmaClone.xcdatamodeld in Sources */,

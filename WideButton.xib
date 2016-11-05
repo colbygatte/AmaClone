@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WideButton" customModule="AmaClone" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonImageView" destination="DWS-3s-dVP" id="IhN-yg-Ldw"/>
+                <outlet property="buttonLabel" destination="Wzz-9A-INM" id="9I9-GE-aZ9"/>
+                <outlet property="view" destination="iN0-l3-epB" id="SxL-Eg-gWO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="302" height="77"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wzz-9A-INM">
+                    <rect key="frame" x="75" y="30" width="37.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DWS-3s-dVP">
+                    <rect key="frame" x="15" y="16" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="3FF-KL-Pm7"/>
+                        <constraint firstAttribute="width" constant="45" id="6BR-ax-aET"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wzz-9A-INM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3Od-ND-nXO"/>
+                <constraint firstItem="DWS-3s-dVP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9nx-pe-Q9i"/>
+                <constraint firstItem="DWS-3s-dVP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="Ng4-HQ-h8A"/>
+                <constraint firstItem="Wzz-9A-INM" firstAttribute="leading" secondItem="DWS-3s-dVP" secondAttribute="trailing" constant="15" id="tEh-el-fKE"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <action selector="touch:" destination="-1" eventType="touchUpInside" id="A7K-7K-Pcg"/>
+            </connections>
+            <point key="canvasLocation" x="150" y="549.5"/>
+        </view>
+    </objects>
+</document>
