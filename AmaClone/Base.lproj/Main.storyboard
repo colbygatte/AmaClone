@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9GC-iv-VAe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JCC-Sn-pvq">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -72,22 +72,22 @@
             <point key="canvasLocation" x="989.60000000000002" y="35.532233883058474"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="YQx-yc-aHm">
+        <scene sceneID="eCU-oj-ZLU">
             <objects>
-                <viewController autoresizesArchivedViewToFullSize="NO" id="9GC-iv-VAe" sceneMemberID="viewController">
+                <viewController id="JCC-Sn-pvq" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Sxy-cT-P5K"/>
-                        <viewControllerLayoutGuide type="bottom" id="jXB-Mc-bSd"/>
+                        <viewControllerLayoutGuide type="top" id="Q75-dE-ung"/>
+                        <viewControllerLayoutGuide type="bottom" id="pay-5y-nPs"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Mld-PU-LUK" customClass="ProductView" customModule="AmaClone" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="Q3a-OD-voD" customClass="ProductView" customModule="AmaClone" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RpM-j0-sZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O5d-Bz-gZr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1821.5999999999999" y="35.532233883058474"/>
+            <point key="canvasLocation" x="1849" y="87"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="v1v-Oq-Mv1">

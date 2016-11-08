@@ -31,9 +31,10 @@ class ProductView: UIView {
         
         Bundle.main.loadNibNamed("ProductView", owner: self, options: nil)
         
-        self.scrollView.contentSize = self.view.frame.size
-
-        self.addSubview(self.scrollView)
+        self.view.frame = self.subView.frame
+        
+        self.scrollView.contentSize = self.subView.frame.size
+        self.addSubview(self.view)
     }
     
 }
