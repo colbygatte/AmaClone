@@ -8,8 +8,6 @@
 
 import UIKit
 
-// self.sendActions(for: .touchUpInside)
-
 class WideButton: UIButton {
 
     @IBOutlet weak var buttonImageView: UIImageView!
@@ -17,17 +15,28 @@ class WideButton: UIButton {
     @IBOutlet var view: UIView!
     
     
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setup()
+    }
+    
+    required override init(frame: CGRect) {
+        super.init(frame: frame)
+        setup()
+    }
+    
     func setup() {
-        Bundle.main.loadNibNamed("WideButton", owner: self, options: [:])
-        
-        // delete the default text
-        self.titleLabel?.text = ""
-        
+        Bundle.main.loadNibNamed("WideButton", owner: self, options: nil)
+        self.addSubview(self.view) // if not working, i moved this line from below
+
         // let it be equal to it's parent
         self.view.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
         
-        self.addSubview(self.view)
+        self.view.backgroundColor = AmaColors.WideButton.backgroundColor
+        
+        
     }
+    
     
     @IBAction func touchUpInside() {
         self.sendActions(for: .touchUpInside)
@@ -37,16 +46,6 @@ class WideButton: UIButton {
         self.sendActions(for: .touchDown)
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setup()
-    }
-    
-    
-    required override init(frame: CGRect) {
-        super.init(frame: frame)
-        setup()
-    }
 
     
 }

@@ -22,7 +22,6 @@ class ProductListViewController: UIViewController, UITableViewDelegate, UITableV
         tableView.dataSource = self
         
         let url = AmaAPI(.product, .get).asUrl()!
-    
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             let jsonProducts = JSON(data: data!)
@@ -36,8 +35,18 @@ class ProductListViewController: UIViewController, UITableViewDelegate, UITableV
                 self.tableView.reloadData()
             }
         }.resume()
+        
     }
     
+    // MARK: Segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ViewProduct" {
+            //let VC = segue.destination as! ProductCollectionViewController
+            //VC.product = products[(tableView.indexPathForSelectedRow?.row)!]
+        }
+    }
+    
+    // MARK: Table
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

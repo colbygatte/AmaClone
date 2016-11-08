@@ -1,27 +1,28 @@
 //
-//  ContentViewController.swift
+//  ImageTemplateViewController.swift
+//  AmaClone
 //
-//  Created by Colby Gatte on 11/5/16.
-//
+//  Created by Colby Gatte on 11/6/16.
+//  Copyright © 2016 colbyg. All rights reserved.
 //
 
 import UIKit
 
-class ContentViewController: UIViewController {
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var imageView: UIImageView!
+class ImageTemplateViewController: UIViewController {
 
-    var pageIndex: Int!
-    var titleText: String!
-    var imageFile: String!
+    @IBOutlet var label: UILabel!
+    @IBOutlet var imageView: UIImageView!
+    
+    var setLabelText: String!
+    var setImageViewImage: UIImage!
+    var index: Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.label.text = self.setLabelText
         
-        self.imageView.image = UIImage(named: self.imageFile)
-        self.titleLabel.text = self.titleText
+        self.imageView.image = self.setImageViewImage
     }
 
     override func didReceiveMemoryWarning() {
